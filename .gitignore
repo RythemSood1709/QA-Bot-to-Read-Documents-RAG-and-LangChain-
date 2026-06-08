@@ -1,0 +1,123 @@
+# ==========================================
+# General Python
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ==========================================
+# Environments
+# ==========================================
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+conda/
+
+# ==========================================
+# Jupyter Notebooks
+# ==========================================
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# ==========================================
+# Machine Learning & Data 
+# (Customize these folders based on your structure)
+# ==========================================
+# Data directories
+data/
+datasets/
+bert_dataset/
+raw_data/
+processed_data/
+BERT_dataset.zip
+
+# Specific data files (optional, if you don't want to ignore the whole directory)
+# *.csv
+# *.tsv
+# *.dat
+
+# Model weights and architectures
+models/
+saved_models/
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.pb
+*.gguf
+*.pkl
+*.pickle
+*.joblib
+*.keras
+.vector_cache
+
+# ==========================================
+# MLOps & Experiment Tracking
+# ==========================================
+# MLflow
+mlruns/
+
+# Weights & Biases
+wandb/
+
+# TensorBoard / PyTorch Lightning
+lightning_logs/
+runs/
+*.tfevents.*
+
+# Ray Tune
+ray_results/
+
+# DVC (Data Version Control)
+# Note: DVC manages its own ignores, but generally ignore the local db
+.dvc/cache
+.dvc/tmp
+*.dvc  # Keep this commented out if you want to track DVC files!
+
+# ==========================================
+# OS & IDE Settings
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==========================================
+# Logs and Databases
+# ==========================================
+*.log
+*.sqlite
+*.db
